@@ -1,0 +1,60 @@
+@import '../variables';
+
+
+
+
+.myHomeSectionTitleHolder{
+  position: relative;
+  // height: 200px;
+  
+  .myWaterColorEffect {
+    font-size: 700%;
+    font-weight: 800;
+    color: #f00;
+    text-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+  
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+  }
+
+  .myHomeSectionTitle{
+    display: none;
+
+    font-size: 500%;
+    font-weight: 800;
+    color: #000;
+
+    position: relative;
+    left: 100px;
+    top: 0px;
+  }
+
+
+
+}
+
+
+
+
+
+
+#myBackToTopButton {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: $themeColor;
+
+  display: none;
+  // display: flex;  it will become flex on scroll
+  justify-content: center;
+  align-items: center;
+
+  border: 7px solid $bodyBG;
+  color: #fff;
+  font-size: 200%;
+
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+}

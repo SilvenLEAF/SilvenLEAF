@@ -1,0 +1,164 @@
+@import '../variables';
+
+
+
+
+
+  /* -------------------------------
+  .     Overriding for RIGHT
+  ------------------------------- */
+.myImageRightProjectHolder{
+  flex-flow: row-reverse;
+
+  .myProjectImageHolder{
+    text-align: left !important;  
+  }
+
+  .myProjectButtons {
+    button {
+      margin: 0px 0px 20px 20px !important;    
+    }
+  }
+
+
+
+
+  ul.myUsedTechnology li {
+    margin-left: 15px;
+    margin-right: 0px !important;
+    display: inline-block;
+  
+  }
+
+
+
+
+
+  .myProjectDescriptionHolder{
+    text-align: right;
+  }
+
+}
+
+
+
+
+
+
+
+
+  /* -------------------------------
+  .           Main Styles
+  ------------------------------- */
+#myProjects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+.myProjectHolder{
+  margin-bottom: 120px;  
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+
+
+
+  /* -------------------------------
+  .           Images
+  ------------------------------- */
+  .myProjectImageHolder{
+    margin-right: 25px;
+    perspective: 800px;
+    text-align: right;
+  
+    width: 600px;
+    img {
+      margin: 0;
+      height: 200px;
+    }
+  
+  
+    .my3dProjectImage {
+      position: relative;
+      left: 25px;
+      transform: translateZ(50px) rotateZ(17deg);
+    }
+  }
+
+
+
+
+
+
+
+  /* -------------------------------
+  .           Buttons
+  ------------------------------- */
+  .myProjectButtons {
+    button {
+      margin: 0px 20px 20px 0px;
+  
+      padding: 10px 20px;
+      border-radius: 30px;
+    
+      color: #fff;
+      font-size: 18px;
+      border: 3px solid white;
+
+      cursor: pointer;
+         
+    
+      background-color: $themeColor;
+    }
+  }
+
+
+
+
+
+
+
+  /* -------------------------------
+  .           Technology
+  ------------------------------- */
+  ul.myUsedTechnology {
+    margin: 0;
+    font-family: Dosis;
+    font-weight: 800;
+    
+    
+    li {
+      margin-right: 15px;
+      display: inline-block;
+    }
+  }
+
+
+
+
+
+
+
+
+
+  /* -------------------------------
+  .           Description
+  ------------------------------- */
+  .myProjectDescription {
+    margin: 0;
+    margin-top: 10px;
+  
+    font-size: 125%;
+    
+  }
+
+}

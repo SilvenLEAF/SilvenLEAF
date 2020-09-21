@@ -1,0 +1,68 @@
+@import '../variables';
+
+
+
+#myContact .row {
+  margin: 70px;
+}
+
+#myContact .myContactSection {
+  // margin: 100px 20px 50px 20px;
+  // padding: 1.5rem 3rem;
+  // width: 50%;
+  height: 200px;
+  background-color: #fff;
+  box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+  position: relative;
+
+  text-align: center;
+
+  .myContactSectionIcon {
+    background: $themeColor;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    margin-left: -40px;
+
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: #fff;
+    font-size: 250%;
+  
+    
+
+  }
+
+
+
+  .myContactLink {
+    margin-top: 70px;
+  }
+
+  
+  .myContactButtonHolder {
+    margin-top: 40px;
+
+    .myContactButton {
+      padding: 5px 20px;
+      border-radius: 30px;
+      
+      color: #fff;
+      font-size: 1.2em;
+      border: 3px solid white;
+      cursor: pointer;
+      box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+         
+    
+      background-color: $themeColor;
+    }
+  }
+}

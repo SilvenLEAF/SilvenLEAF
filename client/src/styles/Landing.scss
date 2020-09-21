@@ -1,0 +1,95 @@
+@import '../variables';
+
+#myLanding {
+  margin: 0;
+  height: calc(100vh - 56px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  #myLandingIcon {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+  
+  
+    background: url("/SilvenLEAF.jpg") center/cover;
+  }
+  
+  
+  #myLandingTitleHolder {
+    width: 550px;
+    
+ 
+
+  
+    h5{
+      margin: 0;
+    }      
+    h1{
+      margin: 0;
+      font-family: 'Ranchers', Dosis, sans-serif;
+      color: #f00;
+      text-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+    }
+    h3{
+      margin: 0;
+      font-size: 200%;
+      text-align: center;
+    }
+
+
+
+    
+  }
+}
+
+
+
+
+
+
+
+#myLandingButtonHolder {
+  margin-top: 50px;
+  text-align: center;
+  // border: 2px solid #f00;
+
+  
+  #myLandingButton {
+    padding: 15px 30px;
+    border-radius: 30px;
+    
+    color: #fff;
+    font-size: 1.6em;
+    border: 3px solid white;
+    cursor: pointer;
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+       
+  
+    background-color: $themeColor;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

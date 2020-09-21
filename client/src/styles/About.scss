@@ -1,0 +1,28 @@
+@import '../variables';
+
+
+
+#myAbout {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+
+  .myAboutInfoHolder .myAboutQA div {
+    display: inline-block;
+  }
+
+
+
+  .myAboutTitle {
+    width: 100px;
+    text-align: right;
+
+    font-weight: 800;
+    font-size: 150%;
+    color: #f00;
+  }
+
+  .myAboutAnswer {
+    margin: 0px 0px 10px 10px;
+  }
+}

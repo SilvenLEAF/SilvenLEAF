@@ -1,0 +1,99 @@
+
+
+
+@import './variables';
+
+
+
+
+body{  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  font-family: Dosis, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  text-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+
+  background-color: $bodyBG;
+
+}
+
+
+
+// -------------Nav and  Footer Color
+.nav.nav-wrapper, #myFooter{
+  background-color: $themeColor;  
+}
+
+
+.nav.nav-wrapper {
+  font-family: 'Aladin', cursive;
+
+  .brand-logo{
+    font-size: 270%;
+  }
+  li a {
+    font-size: 150%;
+  }
+}
+
+
+/* ----------------------------------
+.           STICKY FOOTER
+---------------------------------- */
+#myWrapper{
+  min-height: 100vh;
+  margin-bottom: $wrapperBottomMargin;
+}
+
+#myWrapper::after, #myFooter{
+  content: "";
+  display: block;
+
+  height: $footerHeight;
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+/* ------------------------------------
+.              HAMBURGER
+------------------------------------ */
+.sidenav-trigger{
+  position: relative;
+  top: 10px;
+  cursor: pointer;
+}
+.sidenav-trigger > div {
+  width: 30px;    
+  height: 3px;
+  margin: 7px;
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+
+
+
+
+/* ------------------------------------
+.    FORM INPUT INTO PRIMARY COLOR
+------------------------------------ */
+.input-field input[type=text]:focus + label {
+  color: $themeColor !important;
+}
+
+.input-field input[type=text]:focus{
+  border-bottom: 1px solid $themeColor !important;
+  box-shadow: 0 1px 0 0 $themeColor !important;
+}
+
+.prefix.active{
+  color: $themeColor !important;
+}
