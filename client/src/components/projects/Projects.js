@@ -16,8 +16,8 @@ function Projects() {
 
 
   return (
-     <div id="myProjects" className="scrollspy" >
-        <div id="myAllProjectsHolder">
+     <div id="myProjects" className="scrollspy container" >
+        <div id="myAllProjectsHolder" >
           
 
           {

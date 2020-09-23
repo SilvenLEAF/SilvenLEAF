@@ -10,6 +10,7 @@ import Projects from '../projects/Projects';
 import Skills from '../skills/Skills';
 import Contact from '../contact/Contact';
 import About from '../about/About';
+import MobileLanding from '../mobileLanding/MobileLanding';
 
 
 
@@ -38,10 +39,10 @@ function Home() {
   return (
     <>
       <Landing />
+      <MobileLanding/>
       
       
-      <div className="container myHomeSectionTitleHolder">
-        <div className="myWaterColorEffect">Skills</div>
+      <div className="container myHomeSectionTitleHolder">        
         <div className="myHomeSectionTitle">Skills</div>
       </div>
       <Skills/>
@@ -51,8 +52,7 @@ function Home() {
 
 
 
-      <div className="container myHomeSectionTitleHolder">
-        <div className="myWaterColorEffect">My Works</div>
+      <div className="container myHomeSectionTitleHolder">        
         <div className="myHomeSectionTitle">My Works</div>
       </div>
       <Projects/>
@@ -60,8 +60,7 @@ function Home() {
       
       
       
-      <div className="container myHomeSectionTitleHolder">
-        <div className="myWaterColorEffect">Contact Me</div>
+      <div className="container myHomeSectionTitleHolder myContactMeTitleHolder">        
         <div className="myHomeSectionTitle">Contact Me</div>
       </div>
       <Contact/>
@@ -71,8 +70,7 @@ function Home() {
 
 
 
-      <div className="container myHomeSectionTitleHolder">
-        <div className="myWaterColorEffect">About Me</div>
+      <div className="container myHomeSectionTitleHolder">        
         <div className="myHomeSectionTitle">About Me</div>
       </div>
       <About/>

@@ -2,10 +2,10 @@ import React from 'react'
 
 function ImageLeft({ title, links, images, technology, description }) {
   return (
-    <div className="myProjectHolder myImageLeftProjectHolder container">
+    <div id="myImageLeftProjectHolder" className="container myProjectHolder">
       
-      <div className="myProjectImageHolder">
-        <div>
+      <div>
+        <div className="myProjectImageHolder">
           <img src={ images.image3d } alt="" className="my3dProjectImage"/>
           <img src={ images.image2d } alt="" className="my2dProjectImage"/>
         </div>

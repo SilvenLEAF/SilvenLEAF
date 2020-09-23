@@ -10,18 +10,18 @@ function Skills() {
 
 
   return (
-    <div id="mySkills" className="scrollspy container" >
-      <div className="row">
-        <div className="col s12 m4">
-          <FrontendSkills/>
-        </div>
-        <div className="col s12 m4">
-          <BackendSkills/>
-        </div>
-        <div className="col s12 m4">
-          <OtherSkills/>
-        </div>
+    <div id="mySkills" className="scrollspy" >
+    
+      <div>
+        <FrontendSkills/>
       </div>
+      <div>
+        <BackendSkills/>
+      </div>
+      <div>
+        <OtherSkills/>
+      </div>
+    
     </div>
   )
 }

@@ -6,6 +6,8 @@
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  
   
 }
 
@@ -18,7 +20,11 @@
   box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
   position: relative;
 
-  
+  @include mQ(800px){
+    margin: 50px auto;
+    display: block;
+    width: 70vw;
+  }  
 
   .mySkillSectionIcon {
     background: $themeColor;
@@ -48,6 +54,8 @@
     text-align: center;
     font-weight: 500;
     line-height: 1.2;
+   
+    
   }
 
   ul li {

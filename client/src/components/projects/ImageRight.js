@@ -2,10 +2,10 @@ import React from 'react'
 
 function ImageRight({ title, links, images, technology, description }) {
   return (
-    <div className="myProjectHolder myImageRightProjectHolder container">
+    <div id="myImageRightProjectHolder" className="container container myProjectHolder">
       
-      <div className="myProjectImageHolder">
-        <div>
+      <div>
+        <div className="myProjectImageHolder">
           <img src={ images.image3d } alt="" className="my3dProjectImage"/>
           <img src={ images.image2d } alt="" className="my2dProjectImage"/>
         </div>

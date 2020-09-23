@@ -8,7 +8,7 @@ function Landing() {
 
 
   return (
-    <div id="myLanding" className="scrollspy " >        
+    <div id="myLanding" className="scrollspy hide-on-med-and-down" >        
 
       <div id="myLandingTitleHolder">
         <h5>I turn your</h5>

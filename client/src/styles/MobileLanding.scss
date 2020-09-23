@@ -1,0 +1,75 @@
+@import '../variables';
+@import './mixins/mediaQuery';
+
+
+
+
+
+
+
+
+#myMobileLandingTitleHolder {
+  
+  height: 200px;
+  position: relative;
+
+
+
+  
+  #myMobileLandingIcon {
+    margin: 0 auto;
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+    background: url("/SilvenLeaf.jpg") center/cover;
+    filter: opacity(0.1);
+
+    position: absolute;
+    top: -50px;
+    right: 40px;
+    z-index: -1;
+
+  }
+
+
+
+
+
+
+  h5{
+    margin: 100px 0px 0px 20px;
+    text-align-last: center;
+    position: relative;    
+    left: -110px;
+  }      
+  h1{
+    margin: 0;
+
+    font-size: 250%;
+    font-family: 'Ranchers', Dosis, sans-serif;
+    color: #f00;
+    text-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+
+    text-align: center;
+  }
+  h3{
+    margin: 0;
+    font-size: 170%;
+    text-align: center;
+  }
+
+}
+
+#myMobileLandingButton {
+  margin: 0;
+  font-size: 120%;
+}
+
+
+
+#myLandingCarousalHolder {
+  margin-bottom: 50px;
+}
+

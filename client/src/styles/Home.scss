@@ -1,34 +1,25 @@
 @import '../variables';
-
+@import './mixins/mediaQuery';
 
 
 
 .myHomeSectionTitleHolder{
   position: relative;
-  // height: 200px;
   
-  .myWaterColorEffect {
+  .myHomeSectionTitle {
     font-size: 700%;
     font-weight: 800;
     color: #f00;
     text-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
-  
-    // position: absolute;
-    // top: 0;
-    // left: 0;
+
+
+    @include mQ(800px){
+      font-size: 400%;
+      font-weight: 800;
+    }
+      
   }
 
-  .myHomeSectionTitle{
-    display: none;
-
-    font-size: 500%;
-    font-weight: 800;
-    color: #000;
-
-    position: relative;
-    left: 100px;
-    top: 0px;
-  }
 
 
 
@@ -57,4 +48,15 @@
   position: fixed;
   bottom: 40px;
   right: 40px;
+
+
+  @include mQ(700px){
+    width: 60px;
+    height: 60px;
+
+    font-size: 190%;
+
+    bottom: 20px;
+    right: 20px;
+  }
 }

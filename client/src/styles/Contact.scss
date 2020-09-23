@@ -1,21 +1,41 @@
 @import '../variables';
+@import './mixins/mediaQuery';
+
+
+.myContactMeTitleHolder {
+  margin-bottom: 50px;
+}
 
 
 
 #myContact .row {
   margin: 70px;
+
+  @include mQ(800px){    
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
 }
 
 #myContact .myContactSection {
-  // margin: 100px 20px 50px 20px;
-  // padding: 1.5rem 3rem;
-  // width: 50%;
+  
   height: 200px;
   background-color: #fff;
   box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
   position: relative;
 
   text-align: center;
+
+
+
+  @include mQ(800px){    
+    margin-bottom: 70px;
+  }
+
+
+
+
 
   .myContactSectionIcon {
     background: $themeColor;
@@ -57,7 +77,7 @@
       
       color: #fff;
       font-size: 1.2em;
-      border: 3px solid white;
+      border: none;
       cursor: pointer;
       box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
          

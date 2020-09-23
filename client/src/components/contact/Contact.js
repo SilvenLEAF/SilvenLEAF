@@ -17,11 +17,13 @@ function Contact() {
 
 
             <div className="myContactLink">
-              silvenLeaf@gamil.com
+              <a target="_blank" href="mailto:silvenleaf@gmail.com?subject=Contact&body=Hi+SilvenLEAF">
+                SilvenLEAF@gmail.com
+              </a>
             </div>
 
             <div className="myContactButtonHolder">
-              <a href="#" className="myContactButton">
+              <a target="_blank" href="mailto:silvenleaf@gmail.com?subject=Contact&body=Hi SilvenLEAF" className="myContactButton">
                 Open LINK
               </a>
             </div>
@@ -32,11 +34,13 @@ function Contact() {
 
 
             <div className="myContactLink">
-              silvenLeaf@gamil.com
+              <a target="_blank" href="#">
+                LINKED IN
+              </a>
             </div>
 
             <div className="myContactButtonHolder">
-              <a href="#" className="myContactButton">
+              <a target="_blank" href="#" className="myContactButton">
                 Open LINK
               </a>
             </div>
@@ -52,11 +56,13 @@ function Contact() {
 
 
             <div className="myContactLink">
-              silvenLeaf@gamil.com
+              <a target="_blank" href="https://github.com/SilvenLEAF">
+                GITHUB
+              </a>
             </div>
 
             <div className="myContactButtonHolder">
-              <a href="#" className="myContactButton">
+              <a target="_blank" href="https://github.com/SilvenLEAF" className="myContactButton">
                 Open LINK
               </a>
             </div>
@@ -67,11 +73,13 @@ function Contact() {
 
 
             <div className="myContactLink">
-              silvenLeaf@gamil.com
+              <a target="_blank" href="https://twitter.com/SilvenLEAF?s=20">
+                TWITTER
+              </a>
             </div>
 
             <div className="myContactButtonHolder">
-              <a href="#" className="myContactButton">
+              <a target="_blank" href="https://twitter.com/SilvenLEAF?s=20#" className="myContactButton">
                 Open LINK
               </a>
             </div>
