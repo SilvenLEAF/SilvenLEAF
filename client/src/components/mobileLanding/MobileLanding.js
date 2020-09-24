@@ -2,7 +2,6 @@ import '../../styles/MobileLanding.scss';
 
 
 
-
 import React from 'react'
 import Carousal from './Slider';
 
@@ -11,7 +10,7 @@ function MobileLanding() {
     <div id="myMobileLanding" className="hide-on-large-only" >
 
       <div id="myMobileLandingTitleHolder">
-        <div id="myMobileLandingIcon"></div>
+        <div id="myMobileLandingIcon" ></div>
 
         <h5>I turn your</h5>
         <h1>DREAMS into REALITY</h1>

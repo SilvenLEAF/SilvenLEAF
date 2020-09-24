@@ -104,7 +104,7 @@ export default [
 
 
 
-    description: "Buy amazing products from the SilvenLEAF Org",
+    description: "Buy amazing products from SilvenLEAF",
   },
 
 
