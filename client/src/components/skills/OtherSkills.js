@@ -34,16 +34,16 @@ function OtherSkills() {
           PWA
         </li>
         <li>
-          <img src="/images/skills/figma.svg" alt="Figma"/>
-          Figma
+          <img src="/images/skills/gatsby.svg" alt="GatsbyJS"/>
+          GatsbyJS
         </li>
         <li>
           <img src="/images/skills/vscode.svg" alt="VS Code"/>
           VS Code
         </li>
         <li>
-          <img src="/images/skills/leadership.png" alt="Leadership"/>
-          Leadership
+          <img src="/images/skills/heroku.svg" alt="Heroku"/>
+          Heroku
         </li>
         
 
