@@ -2,9 +2,14 @@
 
 
 @import './variables';
+@import './styles/mixins/mediaQuery';
 
 
 
+
+html {
+  scroll-behavior: smooth;
+}
 
 body{  
   margin: 0;
@@ -45,6 +50,14 @@ body{
 #myWrapper{
   min-height: 100vh;
   margin-bottom: $wrapperBottomMargin;
+
+  @include mQ(800px){
+    min-height: 0;
+    margin-bottom: 60px;
+   
+
+    overflow: auto;
+  }
 }
 
 #myWrapper::after, #myFooter{
@@ -53,6 +66,11 @@ body{
 
   height: $footerHeight;
   overflow: hidden;
+
+
+  @include mQ(800px){
+    display: none;
+  }
 }
 
 

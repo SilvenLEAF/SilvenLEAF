@@ -11,6 +11,7 @@ import Skills from '../skills/Skills';
 import Contact from '../contact/Contact';
 import About from '../about/About';
 import MobileLanding from '../mobileLanding/MobileLanding';
+import MobileContact from '../contact/MobileContact';
 
 
 
@@ -64,7 +65,7 @@ function Home() {
         <div className="myHomeSectionTitle">Contact Me</div>
       </div>
       <Contact/>
-
+      <MobileContact/>
 
 
 

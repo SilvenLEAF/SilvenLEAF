@@ -18,7 +18,7 @@ function Slider() {
  
   const [controlledSwiper, setControlledSwiper] = useState(null)
   return (
-    <div className="container">
+    <>
         <Swiper      
       controller={{ control: controlledSwiper}}
       spaceBetween={25}
@@ -30,24 +30,24 @@ function Slider() {
       onSwiper={setControlledSwiper}      
       
     >     
-     {
-       sliderImages.map((item, index)=>{
-         return (
-          <SwiperSlide key={index} >
-          <div className="center mySliderImageHolder">
-            <a href={ item.link}>
-              <img src={ item.image} alt="Slider" className="responsive-img" />
-            </a>
-          </div>
-        </SwiperSlide>
-         )
-       })
+      {
+        sliderImages.map((item, index)=>{
+          return (
+            <SwiperSlide key={index} className="mySwiperSlide" >
+            <div className="center mySliderImageHolder">
+              <a href={ item.link}>
+                <img src={ item.image} alt="Slider" className="responsive-img" />
+              </a>
+            </div>
+          </SwiperSlide>
+          )
+        })
 
-     }
+      }
 
-      
-    </Swiper>
-    </div>
+        
+      </Swiper>
+    </>
   )
 }
 

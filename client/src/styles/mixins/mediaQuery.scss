@@ -21,3 +21,21 @@ To use it, do this....
     }
   }
 }
+
+
+
+
+
+@mixin mHeight($arg...) {
+  @if length($arg) == 1 {
+    @media screen and (max-height: nth($arg, 1)){
+      @content;
+    }
+  }
+
+  @if length($arg) == 2 {
+    @media screen and (max-height: nth($arg, 1)) and (min-height: nth($arg, 2)) {
+      @content;
+    }
+  }
+}

@@ -3,15 +3,23 @@
 
 
 
+#myMobileLanding {
+  margin: 0px;
+  
+  height: calc(100vh - 70px);
+  // height: 100%;
 
+  
+}
 
 
 
 
 #myMobileLandingTitleHolder {
-  
+  // margin-top: 100px;
   height: 200px;
   position: relative;
+  top: 120px;
 
 
 
@@ -19,15 +27,15 @@
   #myMobileLandingIcon {
     margin: 0 auto;
 
-    width: 200px;
-    height: 200px;
+    width: 270px;
+    height: 270px;
     border-radius: 50%;
 
     background: url("/SilvenLEAF.jpg") center/cover;
     filter: opacity(0.1);
 
     position: absolute;
-    top: -50px;
+    top: -90px;
     right: 40px;
     z-index: -1;
 
@@ -39,7 +47,7 @@
 
 
   h5{
-    margin: 100px 0px 0px 20px;
+    margin: 0px 0px 0px 20px;
     text-align-last: center;
     position: relative;    
     left: -110px;
@@ -62,14 +70,22 @@
 
 }
 
-#myMobileLandingButton {
+a#myMobileLandingButton {
   margin: 0;
-  font-size: 120%;
+  font-size: 150%;
 }
 
 
 
 #myLandingCarousalHolder {
-  margin-bottom: 50px;
+  margin: 20px auto;
+  width: 100%;
+  margin-bottom: 0;
+  position: absolute;
+  bottom: 70px;
+
+  @include mHeight(570px){
+    display: none;
+  }
 }
 

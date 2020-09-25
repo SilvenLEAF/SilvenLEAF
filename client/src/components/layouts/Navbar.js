@@ -29,7 +29,8 @@ function Navbar() {
         <ul className="sidenav" id="mobilenav">
           <li><a href="#mySkills" className="sidenav-close" ><i className="fa fa-cogs"></i>Skills</a></li>
           <li><a href="#myProjects" className="sidenav-close" ><i className="fa fa-paint-brush"></i>Works</a></li>
-          <li><a href="#myContact" className="sidenav-close" ><i className="fa fa-envelope"></i>Contact Me</a></li>
+          <li className="hide-on-small-only"><a href="#myContact" className="sidenav-close" ><i className="fa fa-envelope"></i>Contact Me</a></li>
+          <li className="hide-on-med-and-up" ><a href="#myMobileContact" className="sidenav-close" ><i className="fa fa-envelope"></i>Contact Me</a></li>
           <li><a href="#myAbout" className="sidenav-close" ><i className="fa fa-info"></i>About Me</a></li>
         </ul>
 

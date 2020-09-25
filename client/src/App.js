@@ -8,6 +8,8 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Navbar from './components/layouts/Navbar'
 import Footer from './components/layouts/Footer'
+import MobileFooterNav from './components/mobileFooterNav/MobileFooterNav.js'
+
 
 
 import Home from './components/home/Home'
@@ -17,8 +19,8 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
+        <Navbar/>
         <div id="myWrapper">
-          <Navbar/>
           <Switch>
             <Route exact path="/" component={Home} />
           </Switch>
@@ -28,6 +30,8 @@ function App() {
         <div id="myFooter">
           <Footer/>
         </div>
+        
+        <MobileFooterNav/>
       
       </div>
     </BrowserRouter>
