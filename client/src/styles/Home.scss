@@ -1,5 +1,5 @@
 @import '../variables';
-@import './mixins/mediaQuery';
+
 
 
 
@@ -7,6 +7,7 @@
   position: relative;
   
   .myHomeSectionTitle {
+    font-family: Dosis;
     font-size: 700%;
     font-weight: 800;
     color: #f00;

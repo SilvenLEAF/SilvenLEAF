@@ -1,5 +1,5 @@
 @import '../variables';
-@import './mixins/mediaQuery';
+
  
 
 
@@ -11,6 +11,10 @@
 
   .collection-item {
     margin: 0;
+
+    a {
+      color: $themeColor;
+    }
 
     i.myMainIcon {
       background-color: $themeColor;

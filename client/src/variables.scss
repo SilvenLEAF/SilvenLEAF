@@ -1,16 +1,67 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
 /* --------------------------------------
-.      font-family: Dosis;
-.      font-family: 'Ranchers', cursive;
-.      font-family: 'Aladin', cursive;
+.             VARIABLES
 -------------------------------------- */
 
-$themeColor: red;
+$themeColor: #f00;
 $bodyBG: #f7f8fa;
 
 $footerHeight: 120px;
 $wrapperBottomMargin: -120px;
+
+
+$awesomeShadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------
+To use it, do this....
+  li {
+    @include mQ(300px. 1200px){
+      font-size: 30px;
+    }
+
+------------------------- */
+
+
+@mixin mQ($arg...) {
+  @if length($arg) == 1 {
+    @media screen and (max-width: nth($arg, 1)){
+      @content;
+    }
+  }
+
+  @if length($arg) == 2 {
+    @media screen and (max-width: nth($arg, 1)) and (min-width: nth($arg, 2)) {
+      @content;
+    }
+  }
+}
+
+
+
+
+
+@mixin mHeight($arg...) {
+  @if length($arg) == 1 {
+    @media screen and (max-height: nth($arg, 1)){
+      @content;
+    }
+  }
+
+  @if length($arg) == 2 {
+    @media screen and (max-height: nth($arg, 1)) and (min-height: nth($arg, 2)) {
+      @content;
+    }
+  }
+}

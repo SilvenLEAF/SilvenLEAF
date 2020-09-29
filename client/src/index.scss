@@ -1,8 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap&family=Dosis:wght@200;300;400;500;600;700;800&display=swap&family=Ranchers&display=swap');
 
+
+
+/* --------------------------------------
+.      font-family: 'Aladin', cursive;
+.      font-family: 'Roboto', sans-serif;
+.      font-family: Dosis;
+.      font-family: 'Ranchers', cursive;
+-------------------------------------- */
 
 
 @import './variables';
-@import './styles/mixins/mediaQuery';
+
+
+
+/* ------------------------------------
+ (Navbar + Footer) Color
+ Navbar Font
+ Sticky Footer
+ Hamburger
+ Back Top Button
+ Form Color
+------------------------------------ */
 
 
 
@@ -16,13 +35,35 @@ body{
   padding: 0;
   box-sizing: border-box;
   user-select: none;
-  font-family: Dosis, Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 14px;
-  text-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+  font-family: sans-serif;
+  font-size: 14px;  
 
   background-color: $bodyBG;
 
 }
+
+
+
+
+
+
+
+
+
+
+.pageTitle {  
+  margin: 25px 0px;
+
+  font-size: 270%;
+  font-weight: 800;
+  font-family: Dosis, sans-serif;
+}
+
+
+
+
+
+
 
 
 
@@ -42,6 +83,20 @@ body{
     font-size: 150%;
   }
 }
+nav ul li:hover {
+  background-color: rgba($color: $themeColor, $alpha: 0.3);
+}
+
+ul.sidenav {
+  // background-color: rgba($color: $bodyBG, $alpha: 1);
+  background-color: $bodyBG;
+}
+
+
+
+
+
+
 
 
 /* ----------------------------------
@@ -100,18 +155,137 @@ body{
 
 
 
+
+
+
+
+/* ------------------------------------
+.            BACK TO TOP BUTTON
+------------------------------------ */
+#myBackToTopButton {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: $themeColor;
+
+  display: none;
+  // display: flex;  it will become flex on scroll
+  justify-content: center;
+  align-items: center;
+
+  border: 7px solid $bodyBG;
+  color: #fff;
+  font-size: 200%;
+
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 1000;
+
+
+  @include mQ(800px){
+    width: 60px;
+    height: 60px;
+
+    font-size: 190%;
+
+    bottom: 70px;
+    right: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ------------------------------------
 .    FORM INPUT INTO PRIMARY COLOR
 ------------------------------------ */
-.input-field input[type=text]:focus + label {
+.input-field input[type=text]:focus + label, .input-field .materialize-textarea:focus + label {
   color: $themeColor !important;
 }
-
-.input-field input[type=text]:focus{
+.input-field input[type=text]:focus, .input-field .materialize-textarea:focus {
   border-bottom: 1px solid $themeColor !important;
   box-shadow: 0 1px 0 0 $themeColor !important;
 }
 
+
+
+
+
+
+//---------------------ICON
 .prefix.active{
   color: $themeColor !important;
+}
+
+
+
+
+
+
+
+//---------------------TABS
+.tabs .tab a, .tabs .tab a:focus, .tabs .tab a:focus {
+  background: $bodyBG !important;
+  color: $themeColor !important;
+}
+.tabs .tab a.active, .tabs .tab a:focus, .tabs .tab a:focus.active {
+  background: $themeColor !important;
+  color: #fff !important;
+}
+.tabs .indicator {
+   background-color: #000 !important;
+}
+
+
+
+
+
+
+//---------------------RADIO
+[type="radio"]:checked + span:after, 
+[type="radio"].with-gap:checked + span:before, 
+[type="radio"].with-gap:checked + span:after {
+ 
+  border: 2px solid $themeColor !important;
+ 
+}
+ 
+ 
+ 
+[type="radio"]:checked + span:after, 
+[type="radio"].with-gap:checked + span:after {
+ 
+  background-color: $themeColor !important;
+ 
+}
+
+
+
+// ----------------BUTTONS
+
+
+.btn {
+  background-color: $themeColor !important;
+  &:visited {
+    background-color: $themeColor !important;
+  }
+  &:active {
+    background-color: $themeColor !important;
+  }
+  &:focus {
+    background-color: $themeColor !important;
+  }
+  &:hover {
+    background-color: darken($themeColor, 10) !important;
+  }
 }

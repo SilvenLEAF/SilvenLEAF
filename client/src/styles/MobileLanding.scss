@@ -1,5 +1,5 @@
 @import '../variables';
-@import './mixins/mediaQuery';
+
 
 
 
@@ -7,7 +7,6 @@
   margin: 0px;
   
   height: calc(100vh - 70px);
-  // height: 100%;
 
   
 }
@@ -16,7 +15,6 @@
 
 
 #myMobileLandingTitleHolder {
-  // margin-top: 100px;
   height: 200px;
   position: relative;
   top: 120px;
@@ -73,6 +71,7 @@
 a#myMobileLandingButton {
   margin: 0;
   font-size: 150%;
+  color: $themeColor;
 }
 
 

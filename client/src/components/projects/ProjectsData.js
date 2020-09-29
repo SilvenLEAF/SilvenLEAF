@@ -5,7 +5,7 @@ export default [
     
     links: {
       live: "",
-      sourceCode: "https://google.com"
+      sourceCode: "#"
     },
 
     images: {
@@ -14,11 +14,37 @@ export default [
     },
 
 
-    technology: ["NodeJS", "ExpressJS", "React", "Materialize", "SASS", "YTDL-Core", "git", "CLI", "Chrome-Dev-Tools", "ChartJS", "Framer Motion", "React Query" ],
+    technology: ["NodeJS", "ExpressJS", "REST Api", "React", "Materialize", "SASS", "ServiceWorkers(PWA)", "Lighthouse Audit", "YTDL-Core", "git", "CLI", "Chrome-Dev-Tools" ],
 
 
 
     description: "An app to download Youtube videos in mp3 and mp4 formats",
+  },
+
+
+
+
+
+  {
+    title: "JobSearchAPP",
+    
+    
+    links: {
+      live: "",
+      sourceCode: "#"
+    },
+
+    images: {
+      image3d: "/images/projects/3d.png",
+      image2d: "/images/projects/2d.png"
+    },
+
+
+    technology: [ "Github Jobs API", "React", "Materialize", "SASS", "ServiceWorkers(PWA)", "Lighthouse Audit", "git", "CLI", "Chrome-Dev-Tools" ],
+
+
+
+    description: "Search JOBS from around the world",
   },
 
 
@@ -32,7 +58,7 @@ export default [
     
     links: {
       live: "",
-      sourceCode: "https://google.com"
+      sourceCode: "#"
     },
 
     images: {
@@ -41,7 +67,7 @@ export default [
     },
 
 
-    technology: ["NodeJS", "ExpressJS", "React", "Materialize", "SASS", "YTDL-Core", "git", "CLI", "Chrome-Dev-Tools", "ChartJS", "Framer Motion", "React Query" ],
+    technology: ["NodeJS", "ExpressJS", "MongoDB", "REST Api", "JWT (auth)", "React", "Materialize", "SASS", "ServiceWorkers(PWA)", "Lighthouse Audit", "git", "CLI", "Chrome-Dev-Tools" ],
 
 
 
@@ -63,7 +89,7 @@ export default [
     
     links: {
       live: "",
-      sourceCode: "https://google.com"
+      sourceCode: "#"
     },
 
     images: {
@@ -72,7 +98,7 @@ export default [
     },
 
 
-    technology: ["NodeJS", "ExpressJS", "React", "Materialize", "SASS", "YTDL-Core", "git", "CLI", "Chrome-Dev-Tools", "ChartJS", "Framer Motion", "React Query" ],
+    technology: ["NodeJS", "ExpressJS", "REST Api", "NewsAPI", "React", "Materialize", "SASS", "git", "CLI", "Chrome-Dev-Tools" ],
 
 
 
@@ -91,7 +117,7 @@ export default [
     
     links: {
       live: "",
-      sourceCode: "https://google.com"
+      sourceCode: "#"
     },
 
     images: {
@@ -100,7 +126,7 @@ export default [
     },
 
 
-    technology: ["NodeJS", "ExpressJS", "React", "Materialize", "SASS", "YTDL-Core", "git", "CLI", "Chrome-Dev-Tools", "ChartJS", "Framer Motion", "React Query" ],
+    technology: ["NodeJS", "ExpressJS", "MongoDB", "REST Api", "Stripe (payment)", "React", "Materialize", "SASS", "ServiceWorkers(PWA)", "Lighthouse Audit", "git", "CLI", "Chrome-Dev-Tools" ],
 
 
 
@@ -115,25 +141,4 @@ export default [
 
 
 
-  {
-    title: "RecipeAPP",
-    
-    
-    links: {
-      live: "",
-      sourceCode: "https://google.com"
-    },
-
-    images: {
-      image3d: "/images/projects/3d.png",
-      image2d: "/images/projects/2d.png"
-    },
-
-
-    technology: ["NodeJS", "ExpressJS", "React", "Materialize", "SASS", "YTDL-Core", "git", "CLI", "Chrome-Dev-Tools", "ChartJS", "Framer Motion", "React Query" ],
-
-
-
-    description: "Get all delicious Recipies around the world!",
-  }
 ]
