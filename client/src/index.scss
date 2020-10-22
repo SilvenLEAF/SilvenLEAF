@@ -15,12 +15,14 @@
 
 
 /* ------------------------------------
- (Navbar + Footer) Color
- Navbar Font
- Sticky Footer
- Hamburger
- Back Top Button
- Form Color
+.     pageTitle
+
+.     (Navbar + Footer) Color
+.     Navbar Font
+.     Hamburger
+.     Sticky Footer
+.     Back Top Button
+.     Form Color
 ------------------------------------ */
 
 
@@ -35,11 +37,10 @@ body{
   padding: 0;
   box-sizing: border-box;
   user-select: none;
-  font-family: sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 14px;  
 
   background-color: $bodyBG;
-
 }
 
 
@@ -49,7 +50,13 @@ body{
 
 
 
+.myThemeColorText {
+  color: $themeColor;
+}
 
+.myThemeColorBG {
+  background-color: $themeColor;
+}
 
 .pageTitle {  
   margin: 25px 0px;
@@ -67,19 +74,41 @@ body{
 
 
 
-// -------------Nav and  Footer Color
+
 .nav.nav-wrapper, #myFooter{
   background-color: $themeColor;  
 }
 
 
 .nav.nav-wrapper {
-  font-family: 'Aladin', cursive;
+  font-family: Dosis, sans-serif;
+  font-weight: 500;
+
+  .myProfileNavIcon{
+    background-color: $bodyBG;
+    color: $themeColor;
+    font-family: Dosis;
+    font-weight: 700;
+    font-size: 170%;
+    
+  }
 
   .brand-logo{
     font-size: 270%;
+    font-family: Aladin, Dosis, sans-serif;
+
+    @include mQ(400px){
+      font-size: 220%;
+    }
   }
-  li a {
+  
+  ul.hide-on-med-and-down li a {
+    font-size: 100%;
+    font-weight: 500;
+    font-family: Roboto, sans-serif;
+  }
+
+  ul.sidenav li a {
     font-size: 150%;
   }
 }
@@ -88,9 +117,58 @@ nav ul li:hover {
 }
 
 ul.sidenav {
-  // background-color: rgba($color: $bodyBG, $alpha: 1);
   background-color: $bodyBG;
+
+  
+  li {
+    background-color: $bodyBG;
+    &:nth-child(1) {
+      margin-top: 50px;
+    }
+  }
 }
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------
+.              HAMBURGER
+------------------------------------ */
+.sidenav-trigger{
+  position: relative;
+  top: 10px;
+  cursor: pointer;
+}
+.sidenav-trigger > div {
+  width: 30px;    
+  height: 3px;
+  margin: 7px;
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -108,7 +186,7 @@ ul.sidenav {
 
   @include mQ(800px){
     min-height: 0;
-    margin-bottom: 60px;
+    margin-bottom: 120px;
    
 
     overflow: auto;
@@ -133,23 +211,6 @@ ul.sidenav {
 
 
 
-
-
-/* ------------------------------------
-.              HAMBURGER
------------------------------------- */
-.sidenav-trigger{
-  position: relative;
-  top: 10px;
-  cursor: pointer;
-}
-.sidenav-trigger > div {
-  width: 30px;    
-  height: 3px;
-  margin: 7px;
-  background-color: #fff;
-  border-radius: 30px;
-}
 
 
 
@@ -209,14 +270,37 @@ ul.sidenav {
 /* ------------------------------------
 .    FORM INPUT INTO PRIMARY COLOR
 ------------------------------------ */
-.input-field input[type=text]:focus + label, .input-field .materialize-textarea:focus + label {
-  color: $themeColor !important;
-}
-.input-field input[type=text]:focus, .input-field .materialize-textarea:focus {
-  border-bottom: 1px solid $themeColor !important;
-  box-shadow: 0 1px 0 0 $themeColor !important;
+.input-field input + label {
+  color: #000;
+  pointer-events: none !important;
+
+  span {
+    margin: 0;
+    font-size: 80%;
+  }
 }
 
+
+
+.input-field input[type=text]:focus + label, .input-field input[type=number]:focus + label, .input-field input[type=email]:focus + label, .input-field input[type=password]:focus + label, .input-field .materialize-textarea:focus + label {
+  color: $themeColor !important;
+}
+
+// .input-field input[type=text]:focus, .input-field input[type=number]:focus, .input-field input[type=email]:focus, .input-field input[type=password]:focus, .input-field .materialize-textarea:focus {
+//   border-bottom: 1px solid $themeColor !important;
+//   box-shadow: 0 1px 0 0 $themeColor !important;
+// }
+
+
+//  input[type=text]:focus,  input[type=number]:focus,  input[type=email]:focus,  input[type=password]:focus,  .materialize-textarea:focus {
+//   border-bottom: 1px solid $themeColor !important;
+//   box-shadow: 0 1px 0 0 $themeColor !important;
+// }
+
+input[type=text]:focus,  input[type=number]:focus,  input[type=email]:focus,  input[type=password]:focus,  .materialize-textarea, .materialize-textarea:focus {
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
 
 
 
@@ -271,10 +355,44 @@ ul.sidenav {
 
 
 
-// ----------------BUTTONS
 
 
-.btn {
+
+
+// --------------------DATE
+.datepicker-date-display {
+  background-color: $themeColor !important;
+ }
+ 
+ .datepicker-cancel, .datepicker-clear, .datepicker-today, .datepicker-done {
+  color:$themeColor !important;
+ }
+ 
+ .datepicker-table td.is-today {
+  color: $themeColor !important;
+ }
+ 
+ .datepicker-table td.is-selected {
+  background-color: $themeColor !important;
+  color: #fff;
+ }
+
+ .dropdown-content.select-dropdown li span {
+   color: $themeColor !important;
+ }
+
+
+
+
+
+
+
+
+ 
+/* --------------------------------------
+.             DEFAULT BUTTONS
+-------------------------------------- */
+.btn.myBtn {
   background-color: $themeColor !important;
   &:visited {
     background-color: $themeColor !important;
@@ -287,5 +405,47 @@ ul.sidenav {
   }
   &:hover {
     background-color: darken($themeColor, 10) !important;
+  }
+}
+
+
+
+
+
+
+.btn.myRedBtn {
+  background-color: $redColor !important;
+  &:visited {
+    background-color: $redColor !important;
+  }
+  &:active {
+    background-color: $redColor !important;
+  }
+  &:focus {
+    background-color: $redColor !important;
+  }
+  &:hover {
+    background-color: darken($redColor, 10) !important;
+  }
+}
+
+
+
+
+
+
+.btn.myBlueBtn {
+  background-color: $blueColor !important;
+  &:visited {
+    background-color: $blueColor !important;
+  }
+  &:active {
+    background-color: $blueColor !important;
+  }
+  &:focus {
+    background-color: $blueColor !important;
+  }
+  &:hover {
+    background-color: darken($blueColor, 10) !important;
   }
 }

@@ -1,16 +1,51 @@
 export default [
   {
+    title: "DomainChecker",
+    
+    
+    links: {
+      live: "https://SilvenLeafDomainChecker.herokuapp.com",
+      sourceCode: "https://github.com/SilvenLEAF/DomainChecker"
+    },
+
+    images: {
+      image3d: "/images/projects/DomainChecker3d.png",
+      image2d: "/images/projects/DomainChecker2d.png"
+    },
+
+
+    technology: ["OAUTH2.0", "NodeJS", "ExpressJS", "MongoDB", "REST Api", "PassportJS", "React", "Materialize", "SASS", "Hooks and Context API", "DNS Module", "ServiceWorkers(PWA)", "Lighthouse Audit", "git", "CLI", "Chrome-Dev-Tools" ],
+
+
+
+    description: "Check if your domain is available.",
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
     title: "YTDownloader",
     
     
     links: {
-      live: "",
-      sourceCode: "#"
+      live: "https://SilvenLeafYTDownloader.herokuapp.com",
+      sourceCode: "https://github.com/SilvenLEAF/YTDownloader"
     },
 
     images: {
-      image3d: "/images/projects/3d.png",
-      image2d: "/images/projects/2d.png"
+      image3d: "/images/projects/YTDownloader3d.png",
+      image2d: "/images/projects/YTDownloader2d.png"
     },
 
 
@@ -25,26 +60,33 @@ export default [
 
 
 
-  {
-    title: "JobSearchAPP",
+
+
+
+
+
+
+
+ {
+    title: "MusicAPP",
     
     
     links: {
-      live: "",
-      sourceCode: "#"
+      live: "https://SilvenLEAF.github.io/MusicAPP",
+      sourceCode: "https://github.com/SilvenLEAF/MusicAPP"
     },
 
     images: {
-      image3d: "/images/projects/3d.png",
-      image2d: "/images/projects/2d.png"
+      image3d: "/images/projects/MusicAPP3d.png",
+      image2d: "/images/projects/MusicAPP2d.png"
     },
 
 
-    technology: [ "Github Jobs API", "React", "Materialize", "SASS", "ServiceWorkers(PWA)", "Lighthouse Audit", "git", "CLI", "Chrome-Dev-Tools" ],
+    technology: ["JavaScript", "HTML5", "CSS3", "git", "CLI", "Chrome-Dev-Tools" ],
 
 
 
-    description: "Search JOBS from around the world",
+    description: "MusicAPP with Pure HTML CSS and JS. (NO libraries or frameworks)",
   },
 
 
@@ -52,27 +94,10 @@ export default [
 
 
 
-  {
-    title: "AnimeSenpai",
-    
-    
-    links: {
-      live: "",
-      sourceCode: "#"
-    },
-
-    images: {
-      image3d: "/images/projects/3d.png",
-      image2d: "/images/projects/2d.png"
-    },
-
-
-    technology: ["NodeJS", "ExpressJS", "MongoDB", "REST Api", "JWT (auth)", "React", "Materialize", "SASS", "ServiceWorkers(PWA)", "Lighthouse Audit", "git", "CLI", "Chrome-Dev-Tools" ],
 
 
 
-    description: "An app to to get all anime and donghua info",
-  },
+
 
 
 
@@ -84,26 +109,29 @@ export default [
 
 
   {
-    title: "NewsAPP",
+    title: "JobSearchAPP",
     
     
     links: {
-      live: "",
-      sourceCode: "#"
+      live: "https://SilvenLEAF.github.io/JobSearchAPP",
+      sourceCode: "https://github.com/SilvenLEAF/JobSearchAPP"
     },
 
     images: {
-      image3d: "/images/projects/3d.png",
-      image2d: "/images/projects/2d.png"
+      image3d: "/images/projects/JobSearchAPP3d.png",
+      image2d: "/images/projects/JobSearchAPP2d.png"
     },
 
 
-    technology: ["NodeJS", "ExpressJS", "REST Api", "NewsAPI", "React", "Materialize", "SASS", "git", "CLI", "Chrome-Dev-Tools" ],
+    technology: ["React", "Materialize", "SASS", "ServiceWorkers(PWA)", "Lighthouse Audit", "Github Jobs API", "git", "CLI", "Chrome-Dev-Tools" ],
 
 
 
-    description: "Get all latest News from 57 different countries",
+    description: "Job Hunting made super easy. Just one simple click!",
   },
+
+
+
 
 
 
@@ -111,28 +139,39 @@ export default [
   
 
 
+
+
+
+
+
+
+
+
+
+
+  
+
   {
-    title: "EcommerceAPP",
+    title: "ToDoAPP",
     
     
     links: {
-      live: "",
-      sourceCode: "#"
+      live: "https://SilvenLEAF.github.io/ToDoAPP",
+      sourceCode: "https://github.com/SilvenLEAF/ToDoAPP"
     },
 
     images: {
-      image3d: "/images/projects/3d.png",
-      image2d: "/images/projects/2d.png"
+      image3d: "/images/projects/ToDoAPP3d.png",
+      image2d: "/images/projects/ToDoAPP2d.png"
     },
 
 
-    technology: ["NodeJS", "ExpressJS", "MongoDB", "REST Api", "Stripe (payment)", "React", "Materialize", "SASS", "ServiceWorkers(PWA)", "Lighthouse Audit", "git", "CLI", "Chrome-Dev-Tools" ],
+    technology: ["JavaScript", "HTML5", "CSS3", "git", "CLI", "Chrome-Dev-Tools" ],
 
 
 
-    description: "Buy amazing products from SilvenLEAF",
+    description: "ToDoAPP with Pure HTML CSS and JS. (NO libraries or frameworks)",
   },
-
 
 
 

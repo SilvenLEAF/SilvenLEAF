@@ -24,11 +24,15 @@ function Projects() {
             ProjectsList[0] && ProjectsList.map((item, index) =>{
               return (index%2===0) ? (
                 
-                <ImageLeft key={index} title={ item.title }  links={ item.links } images={ item.images } technology={ item.technology } description={ item.description } />
+                <div key={index} id={item.title} className="scrollspy" >
+                  <ImageLeft title={ item.title }  links={ item.links } images={ item.images } technology={ item.technology } description={ item.description } />
+                </div>
 
               ) : (
                 
-                <ImageRight key={index} title={ item.title }  links={ item.links } images={ item.images } technology={ item.technology } description={ item.description } />
+                <div key={index} id={item.title} className="scrollspy" >
+                  <ImageRight title={ item.title }  links={ item.links } images={ item.images } technology={ item.technology } description={ item.description } />
+                </div>
 
               );
             })

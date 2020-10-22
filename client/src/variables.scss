@@ -3,14 +3,37 @@
 .             VARIABLES
 -------------------------------------- */
 
-$themeColor: #f00;
+
+
+$redColor: #f00;
+$blueColor: #2196f3;
+$sweetPink: #ff0aa7;
+
+
+
+$awesomeShadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+
+
+
+
+
+$themeColor: $redColor;
 $bodyBG: #f7f8fa;
+
+// $demoLoginBG: complement($themeColor);
+$demoLoginBG: #f1f2f4;
+
+
+
+
+$landingIcon: url("../srcImages/landingIcon.png") center/cover;
+
+
+
 
 $footerHeight: 120px;
 $wrapperBottomMargin: -120px;
 
-
-$awesomeShadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
 
 
 
