@@ -27,8 +27,8 @@ function MobileContact() {
         <MobileContactCollectionItem 
           mainIcon="fa fa-linkedin" 
           title="Linked In"
-          link="#"
-          linkText="No account yet"  
+          link="https://www.linkedin.com/in/silvenleaf/"
+          linkText="www.linkedin.com/in/silvenleaf/"  
         />
 
 

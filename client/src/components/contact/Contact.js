@@ -34,13 +34,13 @@ function Contact() {
 
 
             <div className="myContactLink">
-              <a target="_blank" href="#">
+              <a target="_blank" href="https://www.linkedin.com/in/silvenleaf/">
                 LINKED IN
               </a>
             </div>
 
             <div className="myContactButtonHolder">
-              <a target="_blank" href="#" className="myContactButton">
+              <a target="_blank" href="https://www.linkedin.com/in/silvenleaf/" className="myContactButton">
                 Open LINK
               </a>
             </div>
