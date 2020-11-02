@@ -33,18 +33,18 @@ function BackendSkills() {
           <img src="/images/skills/restapi.jpg" alt=""/>
           REST Api
         </li>
-        <li>
+        {/* <li>
           <img src="/images/skills/graphql.svg" alt=""/>
           GraphQL
-        </li>
+        </li> */}
         <li>
           <img src="/images/skills/stripe.svg" alt=""/>
           Stripe
         </li>
-        <li>
+        {/* <li>
           <img src="/images/skills/socketio.svg" alt=""/>
           Socket.IO
-        </li>
+        </li> */}
       </ul>
     </div>
   )
