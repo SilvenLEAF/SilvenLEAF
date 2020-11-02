@@ -44,6 +44,25 @@ function About() {
           <div className="myAboutTitle">Gender</div>
           <div className="myAboutAnswer">Male</div>
         </div>
+        
+        
+        
+        
+        <div className="myAboutQA">
+          <div className="myAboutTitle">Hobbies</div>
+          <div className="myAboutAnswer">Coding, Learning Chinese/Japanese, Creating, Problem Solving</div>
+        </div>
+        
+        
+        
+        <div className="myAboutQA">
+          <div className="myAboutTitle">My Blogs</div>
+          <div className="myAboutAnswer">
+            <a href="https://silvenleaf.hashnode.dev" target="_blank" rel="noopener noreferrer">
+              SilvenLEAF.hashnode.dev
+            </a>
+          </div>
+        </div>
 
       </div>
     </div>
