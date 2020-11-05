@@ -74,6 +74,7 @@
 ### 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [FETCH API (easiest explanation) Part 3/4 (PUT) by SilvenLEAF](https://dev.to/silvenleaf/fetch-api-easiest-explanation-part-3-4-put-by-silvenleaf-3oe8)
 - [FETCH API (easiest explanation) Part 2/4 (POST) by SilvenLEAF](https://dev.to/silvenleaf/fetch-api-easiest-explanation-part-2-4-post-by-silvenleaf-1kmh)
 - [FETCH API (easiest explanation) Part 1/4 (GET) by SilvenLEAF](https://dev.to/silvenleaf/fetch-api-easiest-explanation-part-1-4-get-silvenleaf-21e2)
 - [Password Hashing with bcrypt (easiest explanation) by SilvenLEAF](https://dev.to/silvenleaf/password-hashing-with-bcrypt-easiest-explanation-5gpg)
