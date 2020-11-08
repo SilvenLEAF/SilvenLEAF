@@ -74,7 +74,7 @@
 ### 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [Role based auth (easiest explanation) (Pure JavaScript) by SilvenLEAF](https://dev.to/silvenleaf/role-based-auth-easiest-explanation-javascript-by-silvenleaf-4pdb)
+- [Role based User System (easiest explanation) (Pure JavaScript) by SilvenLEAF](https://dev.to/silvenleaf/role-based-auth-easiest-explanation-javascript-by-silvenleaf-4pdb)
 - [Async Await (easiest explanation) by SilvenLEAF](https://dev.to/silvenleaf/async-await-easiest-explanation-by-silvenleaf-2o0g)
 - [FETCH API (easiest explanation) Part 4/4 (DELETE) by SilvenLEAF](https://dev.to/silvenleaf/fetch-api-easiest-explanation-part-4-4-delete-by-silvenleaf-4376)
 - [FETCH API (easiest explanation) Part 3/4 (PUT) by SilvenLEAF](https://dev.to/silvenleaf/fetch-api-easiest-explanation-part-3-4-put-by-silvenleaf-3oe8)
