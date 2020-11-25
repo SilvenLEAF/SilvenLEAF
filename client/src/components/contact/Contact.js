@@ -13,7 +13,7 @@ function Contact() {
         <div className="row">
 
           <div className="col m5 myContactSection">
-            <div className="fa fa-google myContactSectionIcon"></div>
+            <div className="fab fa-google myContactSectionIcon"></div>
 
 
             <div className="myContactLink">
@@ -30,7 +30,7 @@ function Contact() {
           </div>
 
           <div className="col m5 offset-m2 myContactSection">
-            <div className="fa fa-linkedin myContactSectionIcon"></div>
+            <div className="fab fa-linkedin myContactSectionIcon"></div>
 
 
             <div className="myContactLink">
@@ -52,7 +52,7 @@ function Contact() {
         <div className="row">
 
           <div className="col m5 myContactSection">
-            <div className="fa fa-github myContactSectionIcon"></div>
+            <div className="fab fa-github myContactSectionIcon"></div>
 
 
             <div className="myContactLink">
@@ -69,7 +69,7 @@ function Contact() {
           </div>
 
           <div className="col m5 offset-m2 myContactSection">
-            <div className="fa fa-twitter myContactSectionIcon"></div>
+            <div className="fab fa-twitter myContactSectionIcon"></div>
 
 
             <div className="myContactLink">

@@ -14,7 +14,7 @@ function MobileContact() {
 
 
         <MobileContactCollectionItem 
-          mainIcon="fa fa-google" 
+          mainIcon="fab fa-google" 
           title="Gmail"
           link="mailto:silvenleaf@gmail.com?subject=Contact&body=Hi SilvenLEAF"
           linkText="SilvenLEAF@gmail.com"  
@@ -25,7 +25,7 @@ function MobileContact() {
 
 
         <MobileContactCollectionItem 
-          mainIcon="fa fa-linkedin" 
+          mainIcon="fab fa-linkedin" 
           title="Linked In"
           link="https://www.linkedin.com/in/silvenleaf/"
           linkText="www.linkedin.com/in/silvenleaf/"  
@@ -39,7 +39,7 @@ function MobileContact() {
 
         
         <MobileContactCollectionItem 
-          mainIcon="fa fa-github" 
+          mainIcon="fab fa-github" 
           title="Github"
           link="https://github.com/SilvenLEAF"
           linkText="github.com/SilvenLEAF"  
@@ -54,7 +54,7 @@ function MobileContact() {
         
         
         <MobileContactCollectionItem 
-          mainIcon="fa fa-twitter" 
+          mainIcon="fab fa-twitter" 
           title="Twitter"
           link="https://twitter.com/SilvenLEAF?s=20"
           linkText="twitter.com/SilvenLEAF?s=20"  

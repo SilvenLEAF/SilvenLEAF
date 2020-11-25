@@ -19,7 +19,7 @@ function ImageRight({ title, links, images, technology, description }) {
             <button className="mySeeLiveButton"><i className="fa fa-link fa-rotate-90"></i> See LIVE</button>
           </a>
           <a target="_blank" href={ links.sourceCode }>
-            <button className="mySeeSourceCodeButton"><i className="fa fa-github"></i> Source Code</button>
+            <button className="mySeeSourceCodeButton"><i className="fab fa-github"></i> Source Code</button>
           </a>
         </div>
 
