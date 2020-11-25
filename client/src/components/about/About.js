@@ -58,8 +58,8 @@ function About() {
         <div className="myAboutQA">
           <div className="myAboutTitle">My Blogs</div>
           <div className="myAboutAnswer">
-            <a href="https://silvenleaf.hashnode.dev" target="_blank" rel="noopener noreferrer">
-              SilvenLEAF.hashnode.dev
+            <a href="https://dev.to/silvenleaf" target="_blank" rel="noopener noreferrer">
+              Dev.to/SilvenLEAF
             </a>
           </div>
         </div>
