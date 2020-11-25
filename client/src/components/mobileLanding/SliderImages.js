@@ -8,6 +8,10 @@ export default [
     link: "#YTDownloader",
     image: "/images/projects/YTDownloader2d.png",
   },{
+    name: "URLShortener",
+    link: "#URLShortener",
+    image: "/images/projects/URLShortener2d.png",
+  },{
     name: "MusicAPP",
     link: "#MusicAPP",
     image: "/images/projects/MusicAPP2d.png",
@@ -15,6 +19,10 @@ export default [
     name: "JobSearchAPP",
     link: "#JobSearchAPP",
     image: "/images/projects/JobSearchAPP2d.png",
+  },{
+    name: "LingHun",
+    link: "#LingHun",
+    image: "/images/projects/LingHun2d.png",
   },{
     name: "ToDoAPP",
     link: "#ToDoAPP",
