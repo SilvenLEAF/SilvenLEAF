@@ -31,6 +31,7 @@
 
 <img alt="javascript" height="26x" style="margin: 15px 15px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
 
+<img alt="typescript" height="26x" style="margin: 15px 15px" src="./skills/typescript.svg" />
 
 <img alt="react" height="26x" style="margin: 15px 15px" src="./skills/react.svg" />
 
