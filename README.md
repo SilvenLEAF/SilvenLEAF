@@ -10,6 +10,8 @@
 <br/>
 
 
+- 🍁 **LANGUAGES:** English, Chinese, Japanese, Hindi, Bengali
+
 - 🍁 **HOBBIES:** Coding, Learning Chinese, Learning Japanese, Creating, Problem Solving
 
 
