@@ -74,6 +74,13 @@
 
 
 ***
+### GitHub Stats
+
+  <img alt="SilvenLEAF's GitHub Stats" src="https://github-readme-stats-git-master.silvenleaf.vercel.app/api?username=SilvenLEAF&show_icons=true&hide_border=true" />
+
+
+***
+
 ### 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
