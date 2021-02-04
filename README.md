@@ -5,12 +5,12 @@
 
 ## I'm a FULLSTACK DEVELOPER (MERN)
 
-- 🍁 ​Hi, I'm  SilvenLEAF (Manash Sarma) and I'm passionate about all things JavaScript.  I work hard.  I care about writing clean code and I genuinely love to learn. I am currently looking for the right opportunity to work in an environment that will help me progress into a Fullstack role.
+- 🍁 ​Hi, I'm  SilvenLEAF (Manash Sarma) and I'm passionate about all things JavaScript.  I work hard.  I care about writing clean code and I genuinely love to learn.
 
 <br/>
 
 
-- 🍁 **LANGUAGES:** English, Chinese, Japanese, Hindi, Bengali
+- 🍁 **LANGUAGES:** English, Chinese, Japanese, Hindi, Bengali (Native)
 
 - 🍁 **HOBBIES:** Coding, Learning Chinese, Learning Japanese, Creating, Problem Solving
 
