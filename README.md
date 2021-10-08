@@ -84,11 +84,11 @@
 ### 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Easiest way to create a ChatBOT from Level 0](https://dev.to/silvenleaf/easiest-way-to-create-a-chatbot-from-level-0-31pf)
 - [How to Create a TypeScript Project with ExpressJS the Simplest Way!!](https://dev.to/silvenleaf/how-to-create-a-typescript-project-with-expressjs-the-simplest-way-578a)
 - [Create Signup/Login system (easiest method) by SilvenLEAF](https://dev.to/silvenleaf/create-signup-login-system-easiest-method-by-silvenleaf-21b5)
 - [Change CSS variables with 1 JavaScript line by SilvenLEAF](https://dev.to/silvenleaf/change-css-variables-with-1-javascript-line-by-silvenleaf-3gla)
 - [Role based User System (easiest explanation) (Pure JavaScript) by SilvenLEAF](https://dev.to/silvenleaf/role-based-auth-easiest-explanation-javascript-by-silvenleaf-4pdb)
-- [Async Await (easiest explanation) by SilvenLEAF](https://dev.to/silvenleaf/async-await-easiest-explanation-by-silvenleaf-2o0g)
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ [more blog posts...](https://SilvenLEAF.hashnode.dev)
