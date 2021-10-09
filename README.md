@@ -24,6 +24,7 @@
 [<img width="26px" alt="SilvenLEAF | LinkedIn" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 
 <br />
+
 ***
 
 ###  TECHNOLOGIES I USED
@@ -52,8 +53,7 @@ Others: Git | Heroku | Chrome Dev Tools | Third Party APIs
 
 <img alt="react" height="26x" style="margin: 15px 15px" src="./skills/react.svg" />
   
-<img alt="redux" height="26x" style="margin: 15px 15px" 
-src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/redux/redux.png" />
+<img alt="PostgreSQL" height="26x" style="margin: 15px 15px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/redux/redux.png" />
 
 <!-- <img alt="materialize" height="26x" style="margin: 15px 15px" src="./skills/materialize.svg" /> -->
 
