@@ -3,9 +3,9 @@
 [![Website](https://img.shields.io/website?label=SilvenLEAF.github.io&style=for-the-badge&url=https%3A%2F%2FSilvenLEAF.github.io)](https://SilvenLEAF.github.io)
 [![Twitter Follow](https://img.shields.io/twitter/follow/SilvenLEAF?color=1DA1F2&logo=twitter&style=for-the-badge)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2SilvenLEAF&screen_name=SilvenLEAF)
 
-## I'm a FULLSTACK DEVELOPER (MERN)
+## I'm a BackEND DEVELOPER
 
-- 🍁 ​Hi, I'm  SilvenLEAF (Manash Sarma) and I'm passionate about all things JavaScript.  I work hard.  I care about writing clean code and I genuinely love to learn. I love coding, esp BackEND programming and learning Chinese and Japanese in my free time.
+- 🍁 ​Hi, I'm  SilvenLEAF (Manash Sarma) and I'm insanely passionate about all things JavaScript and even more about TypeScript.  I work hard.  I care about writing clean code and I genuinely love to learn. I love coding, esp BackEND programming and learning Chinese and Japanese in my free time.
 
 <br/>
 
@@ -24,6 +24,24 @@
 
 <br />
 
+### --------------------------------------
+###       TECHNOLOGIES I USED
+### --------------------------------------
+FrontEND: HTML5 | CSS3 | JavaScript | TypeScript | React | Redux | SASS | Materialize | Context API (React)
+
+BackEND: TypeScript | Node.js | Express.js | Hapi. js | MongoDB | PostgreSQL | SQL | Passport.js | oauth2.0
+
+Database: MongoDB | PostgreSQL
+
+ChatBOT: Bot framework (SDK), LUIS, QnA Maker, TypeScript
+
+App Development: React Native (with Expo) | Redux | TypeScript
+
+Others: Git | Heroku | Chrome Dev Tools | Third Party APIs
+
+<br />
+
+
 ### Languages and Tools:
 <div style="display:flex; flex-wrap:wrap">
 <img alt="html5" height="26x" style="margin: 15px 15px" src="./skills/html5.svg" />
@@ -36,6 +54,9 @@
 <img alt="typescript" height="26x" style="margin: 15px 15px" src="./skills/typescript.svg" />
 
 <img alt="react" height="26x" style="margin: 15px 15px" src="./skills/react.svg" />
+  
+<img alt="redux" height="26x" style="margin: 15px 15px" 
+src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/redux/redux.png" />
 
 <img alt="sass" height="26x" style="margin: 15px 15px" src="./skills/sass.svg" />
 
