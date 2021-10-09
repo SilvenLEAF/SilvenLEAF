@@ -15,6 +15,7 @@
 - 🍁 **HOBBIES:** Coding, Learning Chinese, Learning Japanese, Creating, Problem Solving
 
 
+***
 
 ### Connect with me:
 
@@ -23,10 +24,10 @@
 [<img width="26px" alt="SilvenLEAF | LinkedIn" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 
 <br />
+***
 
-### --------------------------------------
-###       TECHNOLOGIES I USED
-### --------------------------------------
+###  TECHNOLOGIES I USED
+
 FrontEND: HTML5 | CSS3 | SASS | JavaScript | TypeScript | React | Redux | Context API (React)
 
 BackEND: TypeScript | Node.js | Express.js | Hapi. js | MongoDB | PostgreSQL | SQL | Passport.js | oauth2.0
@@ -41,16 +42,10 @@ Others: Git | Heroku | Chrome Dev Tools | Third Party APIs
 
 <br />
 
+***
 
 ### Languages and Tools:
 <div style="display:flex; flex-wrap:wrap">
-<img alt="html5" height="26x" style="margin: 15px 15px" src="./skills/html5.svg" />
-
-
-<img alt="css3" height="26x" style="margin: 15px 15px" src="./skills/css3.svg" />
-  
-<img alt="sass" height="26x" style="margin: 15px 15px" src="./skills/sass.svg" />
-
 <img alt="javascript" height="26x" style="margin: 15px 15px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
 
 <img alt="typescript" height="26x" style="margin: 15px 15px" src="./skills/typescript.svg" />
@@ -78,9 +73,14 @@ src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0
 <img alt="passport" height="26x" style="margin: 15px 15px" src="./skills/passport.png" />
 
 <img alt="oauth" height="26x" style="margin: 15px 15px" src="./skills/oauth.svg" />
-
-
+  
 <img alt="pwa" height="26x" style="margin: 15px 15px" src="./skills/pwa.png" />
+    
+<img alt="html5" height="26x" style="margin: 15px 15px" src="./skills/html5.svg" />
+
+<img alt="css3" height="26x" style="margin: 15px 15px" src="./skills/css3.svg" />
+  
+<img alt="sass" height="26x" style="margin: 15px 15px" src="./skills/sass.svg" />
 
 <img alt="heroku" height="26x" style="margin: 15px 15px" src="./skills/heroku.svg" />
 
