@@ -49,6 +49,10 @@
 <img alt="express" height="26x" style="margin: 15px 15px" src="./skills/express.svg" />
 
 <img alt="mongodb" height="26x" style="margin: 15px 15px" src="./skills/mongodb.svg" />
+  
+  
+<img alt="PostgreSQL" height="26x" style="margin: 15px 15px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/postgresql/postgresql.png" />
+  
 
 <img alt="passport" height="26x" style="margin: 15px 15px" src="./skills/passport.png" />
 
