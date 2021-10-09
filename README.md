@@ -27,7 +27,7 @@
 ### --------------------------------------
 ###       TECHNOLOGIES I USED
 ### --------------------------------------
-FrontEND: HTML5 | CSS3 | JavaScript | TypeScript | React | Redux | SASS | Materialize | Context API (React)
+FrontEND: HTML5 | CSS3 | SASS | JavaScript | TypeScript | React | Redux | Context API (React)
 
 BackEND: TypeScript | Node.js | Express.js | Hapi. js | MongoDB | PostgreSQL | SQL | Passport.js | oauth2.0
 
@@ -48,6 +48,8 @@ Others: Git | Heroku | Chrome Dev Tools | Third Party APIs
 
 
 <img alt="css3" height="26x" style="margin: 15px 15px" src="./skills/css3.svg" />
+  
+<img alt="sass" height="26x" style="margin: 15px 15px" src="./skills/sass.svg" />
 
 <img alt="javascript" height="26x" style="margin: 15px 15px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
 
@@ -58,11 +60,9 @@ Others: Git | Heroku | Chrome Dev Tools | Third Party APIs
 <img alt="redux" height="26x" style="margin: 15px 15px" 
 src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/redux/redux.png" />
 
-<img alt="sass" height="26x" style="margin: 15px 15px" src="./skills/sass.svg" />
+<!-- <img alt="materialize" height="26x" style="margin: 15px 15px" src="./skills/materialize.svg" /> -->
 
-<img alt="materialize" height="26x" style="margin: 15px 15px" src="./skills/materialize.svg" />
-
-<img alt="framermotion" height="26x" style="margin: 15px 15px" src="./skills/framermotion.png" />
+<!-- <img alt="framermotion" height="26x" style="margin: 15px 15px" src="./skills/framermotion.png" /> -->
 
 
 <img alt="nodejs" height="26x" style="margin: 15px 15px" src="./skills/nodejs.svg" />
