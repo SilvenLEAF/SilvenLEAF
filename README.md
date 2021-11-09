@@ -109,7 +109,7 @@ Others: Git | Heroku | Chrome Dev Tools | Third Party APIs
 ### 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [Easiest way to deploy to Azure by SilvenLEAF](https://dev.to/silvenleaf/easiest-way-to-deploy-to-azure-by-silvenleaf-1dkp)
+- [In depth tutorial on deploying to Azure by SilvenLEAF](https://dev.to/silvenleaf/easiest-way-to-deploy-to-azure-by-silvenleaf-1dkp)
 - [Automate deployment in simplest way by SilvenLEAF](https://dev.to/silvenleaf/automate-deployment-in-simplest-way-by-silvenleaf-17p)
 - [Easiest way to Test TypeScript using Jest by SilvenLEAF](https://dev.to/silvenleaf/easiest-way-to-test-typescript-using-jest-by-silvenleaf-iem)
 - [Automate creating DB Schemas by SilvenLEAF](https://dev.to/silvenleaf/automate-creating-db-schemas-by-silvenleaf-1064)
