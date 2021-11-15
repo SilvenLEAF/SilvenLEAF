@@ -109,11 +109,11 @@ Others: Git | Heroku | Chrome Dev Tools | Third Party APIs
 ### 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Simplest way to compile all TypeScript into one single Js file by SilvenLEAF](https://dev.to/silvenleaf/simplest-way-to-compile-all-typescript-into-one-single-js-file-19bj)
 - [In depth tutorial on deploying to Azure by SilvenLEAF](https://dev.to/silvenleaf/easiest-way-to-deploy-to-azure-by-silvenleaf-1dkp)
 - [Automate deployment in simplest way by SilvenLEAF](https://dev.to/silvenleaf/automate-deployment-in-simplest-way-by-silvenleaf-17p)
 - [Easiest way to Test TypeScript using Jest by SilvenLEAF](https://dev.to/silvenleaf/easiest-way-to-test-typescript-using-jest-by-silvenleaf-iem)
 - [Automate creating DB Schemas by SilvenLEAF](https://dev.to/silvenleaf/automate-creating-db-schemas-by-silvenleaf-1064)
-- [How to use PostgreSQL with NodeJS by SilvenLEAF](https://dev.to/silvenleaf/how-to-use-postgresql-with-nodejs-by-silvenleaf-1aef)
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ [more blog posts...](https://SilvenLEAF.hashnode.dev)
